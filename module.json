@@ -1,0 +1,26 @@
+{
+  "name": "chat-timestamp",
+  "title": "Chat Message Timestamp",
+  "description": "A module for adding a real timestamp to chat message",
+  "author": "jsavko",
+  "authors": [],
+  "flags": {},
+  "version": "0.1.0",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "scripts": [],
+  "esmodules": [
+    "chat-timestamp.js"
+  ],
+  "styles": [ ],
+  "languages": [],
+  "packs": [  ],
+  "system": [],
+  "dependencies": [],
+  "socket": false,
+  "manifest": "https://raw.githubusercontent.com/jsavko/chat-timestamp/main/module.json",
+  "download": "https://github.com/jsavko/chat-timestamp/archive/refs/heads/main.zip",
+  "protected": false,
+  "coreTranslation": false,
+  "library": false
+}
