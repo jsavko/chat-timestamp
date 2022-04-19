@@ -3,6 +3,7 @@
         <h4 class="message-sender">{{alias}}</h4>
         <span class="message-metadata">
             <time class="message-timestamps">{{chatTimeStamp message.timestamp}}</time>
+            <time class="message-timestamp" style="display: none;"></time>
             {{#if user.isGM}}
             <a class="message-delete"><i class="fas fa-trash"></i></a>
             {{/if}}
