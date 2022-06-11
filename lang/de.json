@@ -1,0 +1,8 @@
+{
+  "CHAT_TIMESTAMP.showDate.name":"Zeige Datum",
+  "CHAT_TIMESTAMP.showDate.hint":"Soll das Datum gezeigt werden?",
+  "CHAT_TIMESTAMP.showDate.never":"Nie",
+  "CHAT_TIMESTAMP.showDate.always":"Immer",
+  "CHAT_TIMESTAMP.showDate.hover":"bei Hover",
+  "CHAT_TIMESTAMP.showDate.foundry":"Foundry"
+}
