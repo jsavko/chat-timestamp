@@ -1,12 +1,12 @@
 {
-  "name": "chat-timestamp",
+  "id": "chat-timestamp",
   "title": "Chat Message Timestamp",
   "description": "A module for adding a real timestamp to chat message",
-  "author": "jsavko",
   "authors": [
     {
       "name": "jsavko",
-      "url": "https://github.com/jsavko"      
+      "url": "https://github.com/jsavko",
+      "discord":"Phoenix#0009"    
     },
     {
       "name": "Sesu",
@@ -14,9 +14,11 @@
     }
   ],
   "flags": {},
-  "version": "0.2.0",
-  "minimumCoreVersion": "9",
-  "compatibleCoreVersion": "9",
+  "version": "0.2.1",
+  "compatibility": {
+    "minimum": 10,
+    "verified": "10.284"
+  },
   "scripts": [],
   "esmodules": [
     "chat-timestamp.js"
