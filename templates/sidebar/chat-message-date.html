@@ -4,8 +4,15 @@
         <span class="message-metadata">
             <time class="message-timestamps">{{chatDateStamp message.timestamp}} {{chatTimeStamp message.timestamp}}</time>
             <time class="message-timestamp" style="display: none;"></time>
-            {{#if user.isGM}}
-            <a class="message-delete"><i class="fas fa-trash"></i></a>
+            {{#if canDelete}}
+            <a aria-label="{{localize 'Delete'}}" class="message-delete" data-action="deleteMessage">
+                <i class="fa-solid fa-trash" inert></i>
+            </a>
+            {{/if}}
+            {{#if canClose}}
+            <a aria-label="{{ localize "CHAT.Dismiss" }}" class="message-dismiss" data-action="dismissMessage">
+                <i class="fa-solid fa-xmark" inert></i>
+            </a>
             {{/if}}
         </span>
 
