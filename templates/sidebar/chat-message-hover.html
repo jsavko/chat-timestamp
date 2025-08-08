@@ -2,7 +2,7 @@
     <header class="message-header flexrow">
         <h4 class="message-sender">{{alias}}</h4>
         <span class="message-metadata">
-            <span class="hovertext" data-hover={{chatDateStamp message.timestamp}}>
+            <span class="hovertext" data-hover="{{chatDateStamp message.timestamp}}">
                 <time class="message-timestamps">&nbsp;&nbsp;{{chatTimeStamp message.timestamp}}</time>
                 <time class="message-timestamp" style="display: none;"></time>
                 {{#if user.isGM}}
